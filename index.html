@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Min Först JS Sida</title>
+        <link rel=stylesheet href="style.css">
+        <link rel=javascript href="app.js">
+    </head>
 <body>
+<h1>Calculator</h1>
 
-<h2>What Can JavaScript Do?</h2>
+<form>
+    <input type="number" class="input1">
+    <input type="number" class="input2">
+    <div class="buttons">
+        <button type="submit" class="add">+</button>
+        <button type="submit" class="substract">-</button>
+        <button type="submit" class="multiply">*</button>
+        <button type="submit" class="divide">/</button>
+    </div>
+</form>
 
-<p id="demo">JavaScript can change HTML content.</p>
-
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<script src="app.js"></script>
 
 </body>
 </html>
